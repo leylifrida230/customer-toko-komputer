@@ -64,7 +64,8 @@ export default class Transaction extends React.Component{
                         customer_name = {item.customer.name}
                         customer_address = {item.customer.address}
                         time = {item.waktu}
-                        products = {item.detail_transaksi} />
+                        products = {item.detail_transaksi} 
+                        />
                     ))}
                 </div>
             </div>

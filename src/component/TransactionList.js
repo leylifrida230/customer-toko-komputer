@@ -50,7 +50,7 @@ export default class TransactionList extends React.Component{
                 
                 
                 {/* modal component */}
-                <div className="modal fade" id={`#modalDetail${this.props.transaction_id}`}>
+                <div className="modal fade" id={`modalDetail${this.props.transaction_id}`}>
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
                             <div className="modal-header bg-success text-white">
